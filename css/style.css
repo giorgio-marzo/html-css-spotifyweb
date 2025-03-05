@@ -29,6 +29,10 @@ main{
     height: 100%;
     width: 250px;
     background-color: rgba(0, 0, 0, 0.61);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 
@@ -58,11 +62,19 @@ footer{
 }
 
 .j-end{
-    justify-content: end;
+    justify-content: flex-end;
+}
+
+.j-center{
+    justify-content: center;
 }
 
 .al-center{
     align-items: center;
+}
+
+.al-end{
+    align-items: flex-end;
 }
 
 .logo{
@@ -72,10 +84,64 @@ footer{
 
  .lato ul{
     list-style-type: none;
-    margin-left: 30px;
+    
     
 }
 
 .lato li{
-    padding: 10px 0px;
+    padding-left: 20px;
+    
 }
+
+.casa{
+    border-left: 5px solid greenyellow;
+}
+
+.lato img{
+    width: 30px;
+    margin-right: 5px;
+    height: 40px;
+}
+
+
+.playlist li{
+    margin: 18px 0;
+}
+
+li.play{
+    margin: 25px 0;
+}
+
+.piu{
+    height: 40px;
+    width: 40px;
+    background-color: crimson;
+    color: gold;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.installa img{
+    width: 20px;
+}
+
+.sotto{
+    padding: 20px;
+}
+
+.sotto img{
+    margin-right: 10px;
+}
+
+.profilo{
+    margin: 10px 0;
+}
+
+.profilo img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    
+}
+
