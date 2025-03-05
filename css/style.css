@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:"Roboto";
+    color: white;
+}
+
+header{
+    position: sticky;
+    height: 100px;
+    background-color: rgba(167, 171, 201, 0.685);
+    top: 0;
+    
+    
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: rgb(72, 81, 112);
+    display: flex
+}
+
+#barra-lato{
+    height: 100%;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+
+footer{
+    height: 100px;
+    background-color: gray;
+}
+
+#principale{
+    width: calc(100% - 250px);
+    overflow-y: scroll;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+.botton {
+   margin: 10px;
+   padding: 10px 35px;
+   border: 2px solid white;
+   border-radius: 20px;
+
+}
+
+.j-end{
+    justify-content: end;
+}
+
+.al-center{
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    padding: 20px;
+}
+
+ .lato ul{
+    list-style-type: none;
+    margin-left: 30px;
+    
+}
+
+.lato li{
+    padding: 10px 0px;
+}
