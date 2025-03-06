@@ -8,6 +8,7 @@
 body{
     font-family:"Roboto";
     color: white;
+    height: calc(100vh - 100px);
 }
 
 header{
@@ -22,11 +23,12 @@ header{
 main{
     height: calc(100vh - 100px);
     background-color: rgb(72, 81, 112);
-    display: flex
+    display: flex;
+    overflow-y: scroll;
 }
 
 #barra-lato{
-    height: 100%;
+    
     width: 250px;
     background-color: rgba(0, 0, 0, 0.61);
     display: flex;
@@ -36,21 +38,23 @@ main{
 }
 
 
+
 footer{
     height: 100px;
     background-color: gray;
+    
 }
 
 #principale{
     width: calc(100% - 250px);
-    overflow-y: scroll;
+    height: 100%;
 }
 
 .d-flex{
     display: flex;
 }
 
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++    BARRA LATO   +++++++++++++++++++++*/
 
 
 .botton {
@@ -82,7 +86,7 @@ footer{
     padding: 20px;
 }
 
- .lato ul{
+ ul{
     list-style-type: none;
     
     
@@ -145,3 +149,41 @@ li.play{
     
 }
 
+
+/*+++++++++++++++++      PRINCIPALE       +++++++++++++++++*/
+
+.container{
+    padding: 20px;
+}
+
+.grosso{
+    font-weight: bold;
+}
+
+.sei li{
+    margin: 10px 20px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+.carta{
+    width: calc(100% / 6);
+    padding-right: 20px;
+}
+
+.nome-album, .sottotitolo{
+    text-align: center;
+    margin: 15px;
+}
+
+.primo-sottotitolo{
+    margin-bottom: 30px;
+}
