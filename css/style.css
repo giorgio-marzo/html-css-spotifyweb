@@ -7,22 +7,21 @@
 
 body{
     font-family:"Roboto";
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     height: calc(100vh - 100px);
 }
 
 header{
     position: sticky;
     height: 100px;
-    background-color: rgba(167, 171, 201, 0.685);
-    top: 0;
-    
-    
+    background-color: rgb(8, 11, 18);
+    top: 0; 
 }
+
 
 main{
     height: calc(100vh - 100px);
-    background-color: rgb(72, 81, 112);
+    background-color:#141922;
     display: flex;
     overflow-y: scroll;
 }
@@ -30,7 +29,7 @@ main{
 #barra-lato{
     
     width: 250px;
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,7 +42,7 @@ main{
 
 footer{
     height: 100px;
-    background-color: gray;
+    background-color: #222222;
     
 }
 
@@ -100,7 +99,7 @@ footer{
 }
 
 .casa{
-    border-left: 5px solid greenyellow;
+    border-left: 3px solid #A9F540;
 }
 
 .lato img{
@@ -121,8 +120,8 @@ li.play{
 .piu{
     height: 40px;
     width: 40px;
-    background-color: crimson;
-    color: gold;
+    background-color: white;
+    color: black;
     margin-right: 5px;
     font-size: 30px;
 }
@@ -146,8 +145,8 @@ li.play{
 .profilo img{
     width: 30px;
     height: 30px;
-    border: 2px solid;
     border-radius: 50%;
+    background-color: #A3A3A3;
     
 }
 
@@ -160,9 +159,10 @@ li.play{
 
 }
 
-.grosso{
+.grosso, .nome-album, .last-nome{
     font-weight: bold;
 }
+
 
 .sei li{
     margin: 10px 20px;
@@ -196,6 +196,10 @@ h2{
     margin: 15px;
 }
 
+.nome-album, h2, .profilo, .botton, p, .premi, .last-nome, .volume i{
+    color: white;
+}
+
 .primo-sottotitolo{
     margin-bottom: 30px;
 }
@@ -203,3 +207,100 @@ h2{
 .radius{
     border-radius: 50%
 }
+
+
+/*++++++++++++++++++ FOOTER ++++++++++++++++++++++++*/
+
+
+.ascolto{
+    justify-content: space-between;
+}
+
+.brano, .volume{
+    width: 250px;
+}
+
+.tempo{
+    width: calc(100vw - 500px);
+}
+
+.foto-brano{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+footer img{
+    width: 100%;
+}
+
+.margin{
+    margin: 0 10px;
+}
+
+
+.barra-volume{
+    height: 4px;
+    
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.totale{
+  width: 50%;  
+}
+
+.passivo{
+    width: 30%;   
+    background-color: rgb(255, 255, 255);
+
+}
+
+.comandi{
+    width: 40%;
+
+}
+
+.w100{
+    width: 100%;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+p{
+    font-size: 12px;
+}
+
+.premi{
+font-size: 15px;
+}
+
+.premi-avvio{
+    font-size: 30px;
+    color: white;
+}
+
+
+.finito{
+    margin-bottom: 10px;
+}
+
+.sinistra{
+    padding-right: 40px;
+}
+
+.destra{
+   padding-left: 40px; 
+}
+
+
+.barra-tempo{
+    width: calc(100vw - 580px);
+}
+
+/*+++++++++++++++++++ HOVER +++++++++++++++++++++++*/
+
+
