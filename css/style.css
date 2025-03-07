@@ -238,7 +238,7 @@ h2{
     top: 0;
 }
 
-.guarda, .scuro{
+.guarda, .scuro, .attivo, .pallino{
     opacity: 0;
 }
 
@@ -281,6 +281,7 @@ footer img{
     
     border-radius: 2px;
     background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
 
 }
 
@@ -338,6 +339,24 @@ font-size: 15px;
     width: calc(100vw - 580px);
 }
 
+.attivo{
+    background-color: #ADFF2F;
+    width: 30%;
+    position: absolute;
+    top: 0;
+}
+
+.pallino{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+    top: -4px;
+    right: 0;
+}
+
+
+
 /*+++++++++++++++++++ HOVER +++++++++++++++++++++++*/
 
 a{
@@ -381,6 +400,9 @@ a{
     transition: 0.4s;
 }
 
+.attivo:hover, .pallino{
+    opacity: 1;
+}
 
 
 /*++++++++++++++++ MEDIA QUERY  +++++++++++++++++++*/
