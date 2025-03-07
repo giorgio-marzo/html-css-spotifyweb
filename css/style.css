@@ -59,7 +59,7 @@ footer{
 
 
 .botton {
-   margin: 10px;
+   margin: 20px;
    padding: 10px 35px;
    border: 2px solid white;
    border-radius: 20px;
@@ -309,8 +309,40 @@ font-size: 15px;
 
 /*+++++++++++++++++++ HOVER +++++++++++++++++++++++*/
 
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
 
+.botton:hover{
+    transform: scale(1.1);
+    
+}
 
+.premi-avvio:hover{
+    transform: scale(1.2);
+    
+}
+
+.lista-lato li:hover{
+    color: white;
+}
+
+.installa:hover{
+    color: white;
+}
+
+.sei li:hover{
+    color: white;
+}
+
+.fa-heart:hover{
+    color: white;
+}
+
+.fa-folder:hover{
+    color: white;
+}
 
 /*++++++++++++++++ MEDIA QUERY  +++++++++++++++++++*/
 
